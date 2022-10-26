@@ -1,12 +1,17 @@
 /*  import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  font-family: "Poppins", sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -103,7 +108,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: rgb(27, 20, 220);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -120,7 +125,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: rgb(27, 20, 220);
 }
 .navbar .max-width{
     display: flex;
@@ -133,7 +138,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color:  rgb(27, 20, 220);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -152,7 +157,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(27, 20, 220);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -169,7 +174,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background:  rgb(27, 20, 220);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -225,23 +230,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color:  rgb(27, 20, 220);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background:  rgb(27, 20, 220);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(27, 20, 220);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: rgb(27, 20, 220);
     background: none;
 }
 
@@ -267,25 +272,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color:  rgb(27, 20, 220);;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: rgb(27, 20, 220);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(27, 20, 220);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: rgb(27, 20, 220);
     background: none;
 }
 
@@ -313,7 +318,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: rgb(27, 20, 220);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -323,7 +328,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: rgb(27, 20, 220);
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -353,18 +358,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: rgb(27, 20, 220);
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(27, 20, 220);
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: rgb(27, 20, 220);
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -392,7 +397,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: rgb(27, 20, 220);
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -404,7 +409,7 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 70%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
@@ -423,7 +428,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: rgb(27, 20, 220);
 }
 .teams .carousel .card .box{
     display: flex;
@@ -445,7 +450,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid rgb(27, 20, 220);
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -461,7 +466,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid rgb(27, 20, 220)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -470,7 +475,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: rgb(27, 20, 220)!important;
 }
 
 /* contact section styling */
@@ -502,7 +507,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgb(27, 20, 220);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -561,12 +566,12 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background:  rgb(27, 20, 220);
+  border: 2px solid  rgb(27, 20, 220);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color:  rgb(27, 20, 220);
   background: none;
 }
 /* footer section styling */
@@ -577,7 +582,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color:  rgb(27, 20, 220);
     text-decoration: none;
 }
 footer span a:hover{

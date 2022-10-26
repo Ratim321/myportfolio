@@ -14,6 +14,13 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+    var animation = bodymovin.loadAnimation({
+        container: document.getElementById('animContainer'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'https://assets4.lottiefiles.com/packages/lf20_qhrndegx.json' // lottie file path
+      })
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
